@@ -1,0 +1,77 @@
+@import url("https://fonts.google.com/specimen/Oswald");
+body {
+    background-image: linear-gradient(to right top, #8e98ec, #767ef0, #6062f2, #4e43f0, #4112eb);
+    padding: 301px;
+    font-family: "Oswald", sans-serif;
+}
+#recuadro {
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+  
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(40, 39, 41, 0.25),
+      0 10px 10px rgba(50, 50, 83, 0.342);
+  }
+  #recuadroLeft {
+    background: #9aa0ce;
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  
+  #recuadroRight {
+    background: #5a52bd;
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  .contenido {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #F1EDFF;
+  }
+  button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 45px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #454fa5;
+    border: 1px solid #8598d6;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 20ms ease-in;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  #error {
+    color: red;
+    font-weight: bold;
+    display: none;
+  }
+  
+  .resultado {
+    color: #050007;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: none;
+  }
+  
