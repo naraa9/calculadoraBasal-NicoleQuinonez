@@ -1,6 +1,6 @@
 @import url("https://fonts.google.com/specimen/Oswald");
 body {
-    background-image: linear-gradient(to right top, #8e98ec, #767ef0, #6062f2, #4e43f0, #4112eb);
+    background-image: linear-gradient(to right top, #8e98ec, #767ef0, #6062f2, #4e43f0, #6343d6);
     padding: 301px;
     font-family: "Oswald", sans-serif;
 }
@@ -24,7 +24,7 @@ body {
   }
   
   #recuadroRight {
-    background: #5a52bd;
+    background: #6e68bb;
     width: 50%;
     height: 100%;
     float: left;
@@ -35,6 +35,13 @@ body {
     transform: translateY(-50%);
     overflow: hidden;
     padding: 40px;
+  }
+  .texto{
+    position: relative;
+    top: 40%;
+    transform: translateY(-15%);
+    overflow: hidden;
+    color:#FFFFFF;
   }
   
   input {
@@ -49,8 +56,8 @@ body {
     padding: 12px 45px;
     margin-top: 20px;
     border-radius: 30px;
-    background-color: #454fa5;
-    border: 1px solid #8598d6;
+    background-color: #6e68bb;
+    border: 1px solid #6e68bb;
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 1px;
