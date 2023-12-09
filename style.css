@@ -1,8 +1,8 @@
-@import url("https://fonts.google.com/specimen/Oswald");
+@import url("https://fonts.googleapis.com/css?family=Lora");
 body {
-    background-image: linear-gradient(to right top, #8e98ec, #767ef0, #6062f2, #4e43f0, #6343d6);
+    background-image: linear-gradient(to right top, #eeeef1, #b1b5ec, #b5b6f0, #8e98ec, #767ef0);
     padding: 301px;
-    font-family: "Oswald", sans-serif;
+    font-family: "Lora", sans-serif;
 }
 #recuadro {
     width: 1000px;
@@ -34,14 +34,15 @@ body {
     top: 40%;
     transform: translateY(-50%);
     overflow: hidden;
-    padding: 40px;
+    padding: 70px;
+    color:#000000;
   }
   .texto{
     position: relative;
     top: 40%;
     transform: translateY(-15%);
     overflow: hidden;
-    color:#FFFFFF;
+    color:#ffffff;
   }
   
   input {

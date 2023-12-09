@@ -4,7 +4,7 @@ const FLU = document.getElementById('flu');
 const MAN = document.getElementById('man');
 
 CALCULAR.addEventListener('click', () => {
-    const DATO = document.getElementById('peso').value
+    const DATO = document.getElementById('peso').valueAsNumber
     if (DATO > 0){
         ERROR.style.display = 'none'
         let flujo = calcFlujo(DATO);
@@ -32,7 +32,7 @@ CALCULAR.addEventListener('click', () => {
            return menorA30(peso); 
         }
         else if(peso>30){
-            return((peso*4)+7)/(Number(peso)+90);
+            return((peso*4)+7)/(peso+90);
            
         }
     }
